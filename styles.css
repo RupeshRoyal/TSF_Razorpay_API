@@ -1,0 +1,38 @@
+/* styles.css - Your separate CSS file */
+
+/* Customize the container */
+body{
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Make the container fill the viewport height */
+    cursor: pointer;
+}
+
+/* Customize the heading */
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Customize the form elements */
+.nes-field {
+    margin-bottom: 20px;
+    width: 100%; /* Make the fields full-width */
+}
+
+/* Customize the input fields */
+.nes-input {
+    width: 100%;
+    cursor: text;
+}
+
+/* Customize the button */
+.nes-btn {
+    width: 100%;
+    cursor: pointer;
+}
+
